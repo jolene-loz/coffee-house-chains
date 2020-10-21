@@ -1,0 +1,45 @@
+
+
+h1{
+    font-weight: bold;
+}
+
+#sort{
+    background-color: #593C1F;
+    border-color: orange;
+    padding-left: 30px;
+    border-radius: 15px;
+}
+
+#sort:hover,
+#sort:active,
+#sort:focus {
+  border: 0px !important;
+  color: orange !important;
+}
+label{
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+#group-by{
+    border-color: brown;
+    background-color: bisque; 
+    width: 500px;
+    display: flex;
+    border-radius: 15px;
+}
+
+body {
+    background-color:  #d4b996ff;
+    padding: 100px;
+    width: 1000px;
+    height: 1000px
+}
+
+.container{
+    width: flex;
+    display: auto;
+}
+
+
+  /* create container */

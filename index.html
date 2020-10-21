@@ -4,13 +4,13 @@
     <head>
         <meta charset="utf-8"> 
         <title>Coffee House Chains</title>
-        <script type="text/javascript" src="http://d3js.org/d3.v6.min.js"></script>
+        <script src="http://d3js.org/d3.v6.min.js"></script>
         <link rel="stylesheet" href="style.css">
             <!-- Milligram CSS -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
-        <script type="text/javascript" src="../d3.js"></script>
+        
     </head>
     <body>
         <div class="container">
@@ -91,7 +91,7 @@
         drawAxes();
 
 
-    // CHART INIT ------------------------------   
+    // CHART UPDATE ------------------------------   
     function update(data, type){
         type = document.querySelector("#group-by").value
         if (state == false){

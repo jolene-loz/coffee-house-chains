@@ -108,10 +108,9 @@ function drawAxes(){
      .call(xAxis)
     svg.select('.y-axis')
         .transition()
-        .duration(250)
-        .style("opacity", 0)
+        .duration(500)
         .transition()
-        .duration(250)
+        .duration(500)
         .style("opacity", 1)
         .call(yAxis)
 
@@ -127,6 +126,8 @@ function drawAxes(){
     }
 
     svg.append("text")
+        .transition()
+        .duration(250)
         .attr('class', 'axis-title')
         .attr('x', 5)
         .attr('y', -10)
